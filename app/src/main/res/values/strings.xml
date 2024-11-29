@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">app</string>
+    <string name="account_description">Account</string>
+    <string name="map_description">Tracks</string>
+    <string name="places_description">Visited places</string>
+    <string name="picture_description">PhotoAlbum</string>
+    <string-array name="transport_type_array">
+        <item>Plane</item>
+        <item>Train</item>
+        <item>Bus</item>
+        <item>Ship</item>
+        <item>Other</item>
+    </string-array>
+</resources>

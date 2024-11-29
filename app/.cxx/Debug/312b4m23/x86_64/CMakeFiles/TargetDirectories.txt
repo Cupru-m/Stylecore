@@ -1,0 +1,3 @@
+D:/Studies/PMS/XTravel/app/.cxx/Debug/312b4m23/x86_64/CMakeFiles/native-lib.dir
+D:/Studies/PMS/XTravel/app/.cxx/Debug/312b4m23/x86_64/CMakeFiles/edit_cache.dir
+D:/Studies/PMS/XTravel/app/.cxx/Debug/312b4m23/x86_64/CMakeFiles/rebuild_cache.dir

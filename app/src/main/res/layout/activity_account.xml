@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFF"
+    android:orientation="vertical"
+    tools:context=".winmain.AccountActivity">
+
+    <TextView
+        android:id="@+id/textViewAccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Аккаунт"
+        android:textColor="#2C3E50"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/link_to_visa"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/light_button_background"
+        android:fontFamily="@font/inter"
+        android:gravity="center"
+        android:text="платежные карты"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/link_to_convert"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/link_to_visa"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/light_button_background"
+        android:fontFamily="@font/inter"
+        android:gravity="center"
+        android:text="конвертировать"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/link_to_log_out"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/link_to_convert"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/light_button_background"
+        android:fontFamily="@font/inter"
+        android:gravity="center"
+        android:text="Выйти"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        android:background="#FF5722"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <ImageButton
+            android:id="@+id/picture_button_acc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#4773D1"
+            android:contentDescription="@string/picture_description"
+            android:src="@drawable/picture" />
+
+        <ImageButton
+            android:id="@+id/basket_button_acc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#4773D1"
+            android:contentDescription="@string/picture_description"
+            android:src="@drawable/basket" />
+
+        <ImageButton
+            android:id="@+id/account_button_acc"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#4773D1"
+            android:contentDescription="@string/account_description"
+            android:src="@drawable/account" />
+    </LinearLayout>
+
+</RelativeLayout>
